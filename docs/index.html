@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>
+   Sample site
+  </title>
+ </head>
+ <body>
+  <header>
+   <span class="header-text">Welcome to my blog!</span>
+  </header>
+  <nav>
+   <a class="nav-active" href="/">Home</a> |
+  <a href="/blog">Blog</a> |
+  <a href="/about">About</a>
+  </nav>
+  <main>
+   <p>
+    This is a sample <a href="https://soupault.app">soupault</a> blog setup that you can make your own.
+   </p>
+   <p>
+    You can edit this page content in <code>site/index.md</code>. For example, greet your readers and introduce yourself and your blog.
+   </p>
+   <h2>
+    Basics
+   </h2>
+   <ul>
+    <li>
+     The configuration is in the <code>soupault.toml</code> file. Make sure to read it and tweak it if you want.
+    </li>
+    <li>
+     Page source files are in <code>site/</code>.
+    </li>
+    <li>
+     The page template is in <code>templates/main.html</code>.
+    </li>
+    <li>
+     The header and the footer are in <code>templates/header.html</code> and <code>templates/footer.html</code>, respectively.
+    </li>
+    <li>
+     Navigation menu link highlighting is done by the <code>section-link-highlight</code> plugin.
+    </li>
+    <li>
+     Lua plugins are stored in <code>plugins/</code>. You can find more plugins at <a href="https://www.soupault.app/plugins/">soupault.app/plugins</a>.
+    </li>
+   </ul>
+   <h2>
+    Styling
+   </h2>
+   <p>
+    The CSS file is in <code>site/style.css</code>. Soupault copies all non-page files<a class="footnote" href="#footnote-asset-files"><sup id="footnote-asset-files-ref">1</sup></a> to the <code>build/</code> directory unchanged, so it doesn’t need a dedicated assets directory.
+   </p>
+   <h2>
+    Dependencies
+   </h2>
+   <p>
+    This setup uses <a href="https://pandoc.org">pandoc</a> for Markdown to HTML conversion. To build it locally, please make sure that pandoc is installed on your system.
+   </p>
+   <p>
+    You can switch to a different Markdown convertor or add convertors for more formats in the <code>[preprocessors]</code> section of <code>soupault.toml</code>. See the <a href="https://soupault.app/reference-manual/#page-preprocessors">page preprocessors</a> section of the reference manual for details.
+   </p>
+   <h2>
+    Creating new posts
+   </h2>
+   <p>
+    Create a new page under <code>site/blog</code>, e.g. <code>site/blog/my-post.md</code>. Instead of “front matter”, you will use a custom HTML “microformat” for the metadata.<a class="footnote" href="#footnote-post-metadata"><sup id="footnote-post-metadata-ref">2</sup></a>
+   </p>
+   <p>
+    In the simplest case it will look like this:
+   </p>
+   <div class="sourceCode" id="cb1">
+    <pre class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">&lt;post-metadata&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>  <span class="kw">&lt;post-title&gt;</span>My post<span class="kw">&lt;/post-title&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a>  <span class="kw">&lt;post-date&gt;</span>1970-01-01<span class="kw">&lt;/post-date&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a>  <span class="kw">&lt;post-tags&gt;</span>test, post<span class="kw">&lt;/post-tags&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="kw">&lt;/post-metadata&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a>This is a post...</span></code></pre>
+   </div>
+   <p>
+    However, you can also embed those tags in the post content and still have a generated header. See <code>site/blog/second-post.md</code> for an example.
+   </p>
+   <h2 id="latest-entries-header">
+    Latest posts
+   </h2>
+   <div id="latest-blog-entries">
+    <dl>
+     <dt>
+      1970-01-02
+     </dt>
+     <dd>
+      <a href="/blog/second-post">My second post</a>
+     </dd>
+     <dt>
+      1970-01-01
+     </dt>
+     <dd>
+      <a href="/blog/first-post">My first post</a>
+     </dd>
+    </dl>
+   </div>
+   <div id="footnotes">
+    <p id="footnote-asset-files">
+     <sup><a class="footnote" href="#footnote-asset-files-ref">1</a></sup>That is, files with extensions not mentioned in <code>settings.page_file_extensions</code>.
+    </p>
+    <p id="footnote-post-metadata">
+     <sup><a class="footnote" href="#footnote-post-metadata-ref">2</a></sup>This isn’t a built-in feature of soupault, but rather a feature of this blueprint, implemented with a mix of Lua plugins and soupault configuration. See <kbd>plugins/post-header.lua</kbd> and the <kbd>[index]</kbd> section in <kbd>soupault.toml</kbd>
+    </p>
+   </div>
+  </main>
+  <footer>
+   <a href="https://www.soupault.app"> <img src="/images/powered_by_soupault_88x31.png" alt="powered by soupault"> </a>
+  </footer>
+ </body>
+</html>
