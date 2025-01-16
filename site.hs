@@ -42,6 +42,28 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    match "cathaikus/*" $ do
+        route $ setExtension "html"
+        compile $
+            pandocCompiler
+                >>= loadAndApplyTemplate "templates/cathaiku.html" catHaikuCtx
+                >>= loadAndApplyTemplate "templates/default.html" catHaikuCtx
+                >>= relativizeUrls
+
+    create ["cathaikuselectpage.html"] $ do
+        route idRoute
+        compile $ do
+            catHaikus <- loadAll "cathaikus/*"
+            let catHaikuSelectPageCtx =
+                    listField "cathaikus" catHaikuCtx (return catHaikus)
+                    `mappend` constField "title" "Cat Haikus"
+                    `mappend` defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/cathaikuselectpage.html" catHaikuSelectPageCtx
+                >>= loadAndApplyTemplate "templates/default.html" catHaikuSelectPageCtx
+                >>= relativizeUrls
+
 
     match "index.html" $ do
         route idRoute
@@ -64,3 +86,7 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+catHaikuCtx :: Context String
+catHaikuCtx =
+  defaultContext
