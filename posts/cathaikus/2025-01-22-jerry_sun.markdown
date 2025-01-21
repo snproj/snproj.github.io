@@ -1,0 +1,18 @@
+---
+title: a great cat
+tags: Cat Haikus
+---
+
+![](../../images/jerry_sun.png){width=400}
+
+_the sun has risen_
+
+_but strangely, it no longer_
+
+_glares and blinds my eyes_
+
+
+
+_now, when I look around me_
+
+_I just see smiling faces_

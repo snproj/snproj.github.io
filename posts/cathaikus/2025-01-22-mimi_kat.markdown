@@ -1,0 +1,8 @@
+---
+title: kat
+tags: Cat Haikus
+---
+
+![](../../images/mimi_kat.png){width=400}
+
+Totally rad.
