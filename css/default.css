@@ -13,6 +13,11 @@ header {
 
 nav {
   text-align: right;
+  /* transform: rotate(90deg) translateY(100%); */
+  /* transform-origin: top left; */
+  /* display: flex;
+  flex-direction: column; */
+  float: left
 }
 
 nav a {
@@ -21,6 +26,21 @@ nav a {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
+  /* display: inline-block; */
+}
+
+.lol {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    /* Make it full height */
+}
+
+.mynav {
+    padding: 2em;
+    position:fixed;
+    top:0%;
+    left:0%;
 }
 
 footer {
