@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>245</fr:anchor>
+    <fr:addr type="user">index</fr:addr>
+    <fr:route>index.xml</fr:route>
+    <fr:title text="Hello, World!">Hello, World!</fr:title>
+    <fr:source-path>/home/sunrise/forry/trees/index.tree</fr:source-path>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Welcome to your first tree! This tree is the root of your forest.
+  <fr:ul><fr:li><fr:link type="external" href="http://www.jonmsterling.com/jms-007D.xml">Build and view your forest for the first time</fr:link></fr:li>
+    <fr:li><fr:link type="external" href="http://www.jonmsterling.com/jms-007N.xml">Overview of the Forester markup language</fr:link></fr:li>
+    <fr:li><fr:link type="external" href="http://www.jonmsterling.com/jms-007H.xml">Creating new trees</fr:link></fr:li>
+    <fr:li><fr:link type="external" href="http://www.jonmsterling.com/jms-007K.xml">Creating your personal biographical tree</fr:link></fr:li></fr:ul></fr:p>
+    <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:anchor>246</fr:anchor>
+        <fr:addr type="user">a-0001</fr:addr>
+        <fr:route>a-0001.xml</fr:route>
+        <fr:title text="Asd">Asd</fr:title>
+        <fr:source-path>/home/sunrise/forry/trees/a-0001.tree</fr:source-path>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:p>This is an example trasdee in my forest.</fr:p>
+        <fr:p>
+          <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="snail.jpg" />
+        </fr:p>
+        <fr:p>hi</fr:p>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter />
+</fr:tree>
