@@ -1,0 +1,10 @@
+\title{Turf}
+
+\p{You see this turf here?}
+
+\p{Best racket I ever had.}
+
+\p{('Cos of all the treats.)}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\p{\<html:img>[src]{yakuza_turf.png}{}}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:addr
+type="user">coh-0001</fr:addr><fr:route>coh-0001.xml</fr:route><fr:title
+text="What is the CoH?">What is the CoH?</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Vibe example:</fr:strong> Imagine a hardware guy, who wants to connect wires to a speaker to make it work. He accidentally crosses the wires and fries the speaker. Now, he has to buy a new one; he has to think about cost and how long it will take to ship, which can be annoying if you just want to focus on "pure" hardware stuff (like where to put the wires). On the other hand, a software guy who borks some component installation can probably just clear the directory, redownload and try again from the comfort of his home.</fr:p><fr:p>Now, the actual definition of the CoH generalizes this dramatically. The CoH is when:</fr:p><fr:ol><fr:li>We are modelling a transformation as a precondition and postcondition.</fr:li>
+<fr:li>We wish to express the precondition and postcondition in a certain language.</fr:li>
+<fr:li>We find out that the language is insufficient to express the precondition.</fr:li></fr:ol><fr:p>Now, let's match each of the above steps to the vibe example. The CoH is present in the vibe example because after the hardware guy fries the wires:</fr:p><fr:ol><fr:li><fr:ol><fr:li>Our transformation: Create a working speaker.</fr:li>
+    <fr:li>Our precondition: Put the wires in the correct places.</fr:li>
+    <fr:li>Our postcondition: The speaker works.</fr:li></fr:ol></fr:li>
+<fr:li>We wish our language to be technical hardware skills (i.e. where to put the wires)</fr:li>
+<fr:li>We find out that our language needs to be extended with cost and shipping times.</fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:addr
+type="user">cohindex</fr:addr><fr:route>cohindex.xml</fr:route><fr:title
+text="The Curse of Hardware">The Curse of Hardware</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Some thoughts on an idea I call the curse of hardware (CoH). It's honestly probably not very original, but I enjoy formalizing it. It's about generalizing the differences between software and hardware, to gain insight into the concepts of formalization, purity and composability, as well as how they might apply to real life.</fr:p><fr:ul><fr:li><fr:link
+type="local"
+href="coh-0001.xml"
+addr="coh-0001"
+title="What is the CoH?">Definition</fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -131,6 +131,8 @@ body {
   font-family: "Inria Sans";
   font-size: 12pt;
   line-height: 1.55;
+  background-color: #111;
+  color: #ddd;
 }
 
 math {
@@ -147,12 +149,12 @@ mrow:hover {
 }
 
 .logo a {
-  color: #666;
+  color: #bbb;
   text-decoration: none;
 }
 
 .logo a:hover {
-  color: #aaa;
+  color: #ddd;
 }
 
 .block.hide-metadata>details>summary>header>.metadata {
@@ -162,7 +164,7 @@ mrow:hover {
 article>section>details>summary>header>h1>.taxon {
   display: block;
   font-size: .9em;
-  color: #888;
+  color: #ff0000;
   padding-bottom: 5pt;
 }
 
@@ -233,7 +235,7 @@ a.heading-link {
 }
 
 details h1 {
-  font-size: 13pt;
+  font-size: 20pt;
   display: inline;
 }
 
@@ -242,7 +244,7 @@ section .block[data-taxon] details>summary>header>h1 {
 }
 
 span.taxon {
-  color: #444;
+  color: #41FF00;
   font-weight: bolder;
 }
 
@@ -253,7 +255,8 @@ span.taxon {
 
 
 article>section>details>summary>header>h1 {
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 26pt;
 }
 
 details>summary {
@@ -295,7 +298,7 @@ nav#toc h1 {
 
 nav#toc,
 nav#toc a {
-  color: #555;
+  color: #41FF00;
 }
 
 nav#toc .link {
@@ -333,7 +336,7 @@ nav#toc li {
 }
 
 .block:hover {
-  background-color: rgba(0, 100, 255, 0.04);
+  background-color: #40ff000e;
 }
 
 .block.highlighted {
@@ -342,12 +345,12 @@ nav#toc li {
 }
 
 .highlighted {
-  background-color: rgba(255, 255, 140, .3);
+  background-color: rgba(255, 0, 144, 0.3);
   border-color: #ccc;
 }
 
 .highlighted:hover {
-  background-color: rgba(255, 255, 140, .6);
+  background-color: rgba(183, 82, 0, 0.374);
   border-color: #aaa;
 }
 
@@ -430,7 +433,7 @@ td.macro-doc {
 }
 
 .enclosing.macro-scope>.enclosing:hover {
-  background-color: rgba(0, 100, 255, 0.1);
+  background-color: rgb(0, 102, 255);
 }
 
 [aria-label][role~="tooltip"]::after {
@@ -512,7 +515,7 @@ a.slug:hover,
 a.bullet:hover,
 .edit-button:hover,
 .link:hover {
-  background-color: rgba(0, 100, 255, .1);
+  background-color: rgba(255, 89, 0, 0.275);
 }
 
 .link {
@@ -520,7 +523,7 @@ a.bullet:hover,
 }
 
 a {
-  color: black;
+  color: #41FF00 ;
   text-decoration: inherit;
 }
 

@@ -1,0 +1,6 @@
+\title{Kat}
+
+\p{Totally rad.}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\p{\<html:img>[src]{mimi_kat.png}{}}

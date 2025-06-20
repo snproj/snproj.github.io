@@ -1,0 +1,13 @@
+\title{About Me}
+
+\p{
+I first got into PL during my [dissertation](https://github.com/snproj/taming-ansible/blob/main/thesis/thesisv1.pdf) about idempotence checking in Ansible scripts. That wasn't too long ago, so in addition to the relevant courses I took during my bachelor's, I'm currently doing self-study while searching for opportunilies to get more formally involved in the field.
+}
+
+\p{
+Currently, I'm broadly interested in formal semantics, logic, type theory and effect systems, with an eye out for HCI factors in language/tool design whenever I get the chance.
+}
+
+\p{
+In my free time, I also enjoy considering the linguistics of programming, examining how programming idioms, conventions and best practices form and spread over time with usage.
+}

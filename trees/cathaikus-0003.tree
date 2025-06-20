@@ -1,0 +1,10 @@
+\title{Jade}
+
+\p{Two pieces of jade}
+
+\p{Both inlaid with many stars}
+
+\p{Whiskers of a cat}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\p{\<html:img>[src]{jade.png}{}}

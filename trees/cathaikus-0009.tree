@@ -1,0 +1,6 @@
+\title{Behold}
+
+\p{(NUS has a cat named m33y; don't ask me.)}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\p{\<html:img>[src]{m33y.png}{}}

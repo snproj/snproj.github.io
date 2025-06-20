@@ -1,0 +1,7 @@
+\title{The Curse of Hardware}
+
+\p{Some thoughts on an idea I call the curse of hardware (CoH). It's honestly probably not very original, but I enjoy formalizing it. It's about generalizing the differences between software and hardware, to gain insight into the concepts of formalization, purity and composability, as well as how they might apply to real life.}
+
+\ul{
+\li{[Definition](coh-0001)}
+}

@@ -1,0 +1,10 @@
+\title{Guard}
+
+\p{On this terraced hill}
+
+\p{stands a tower with a guard}
+
+\p{who is really cute.}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\p{\<html:img>[src]{jerry_guard.png}{}}

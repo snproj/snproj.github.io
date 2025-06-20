@@ -1,12 +1,13 @@
 
-\title{Hello, World!}
+\title{Hi! I'm Zheng Yew.}
+
 \p{
-  Welcome to your first tree! This tree is the root of your forest.
-  \ul{
-    \li{[Build and view your forest for the first time](http://www.jonmsterling.com/jms-007D.xml)}
-    \li{[Overview of the Forester markup language](http://www.jonmsterling.com/jms-007N.xml)}
-    \li{[Creating new trees](http://www.jonmsterling.com/jms-007H.xml)}
-    \li{[Creating your personal biographical tree](http://www.jonmsterling.com/jms-007K.xml)}
-  }
+I'm a recent graduate in computer science from the Singapore University of Technology and Design, hoping to enter research in the field of programming language design. Coming from a mixed interest in logic, programming and linguistics, I love thinking about how we formally model and utilize meaning for various purposes and domains, and exploring the limits of such modelling.
 }
-\transclude{a-0001}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\p{\<html:img>[src]{stanley-dark-small.png}{}}
+
+\transclude{intro-0001}
+\transclude{intro-0002}
+\transclude{intro-0003}

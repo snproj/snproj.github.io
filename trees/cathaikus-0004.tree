@@ -1,0 +1,10 @@
+\title{Dance}
+
+\p{Hare's hearing, lion's sight --}
+
+\p{Red leaves flutter on bird's tail --}
+
+\p{How the autumn dances.}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\p{\<html:img>[src]{dance.jpg}{}}
