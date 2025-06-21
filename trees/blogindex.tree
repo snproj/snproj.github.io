@@ -2,13 +2,13 @@
 
 \p{This is an informal blog! For my profile with more relevant stuff, click [here](index).}
 
-\p{Here's where I plan to dump my various thoughts on programming languages, human linguistics and some creative writing. It might not be very complete.}
+\p{Here's where I plan to dump my various thoughts on programming languages, human linguistics and some creative writing. These might not be very complete nor sound.}
 
 \p{
 This website is written using a really nice tool called [forester](https://github.com/jonsterling/ocaml-forester). It's essentially a collection of notes (a "forest") in a relatively freeform format; some are self-contained and some are organized into series. Apart from clicking links, you can press Ctrl+K to search if you somehow know what you're looking for.
 }
 
 \ul{
-\li{[Cat Haikus + Edits](cathaikusindex)}
 \li{[Curse of Hardware](cohindex)}
+\li{[Cat Haikus + Edits](cathaikusindex)}
 }

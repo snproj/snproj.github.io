@@ -1,6 +1,6 @@
 \title{What is the CoH?}
 
-\p{\strong{Vibe example:} Imagine a hardware guy, who wants to connect wires to a speaker to make it work. He accidentally crosses the wires and fries the speaker. Now, he has to buy a new one; he has to think about cost and how long it will take to ship, which can be annoying if you just want to focus on "pure" hardware stuff (like where to put the wires). On the other hand, a software guy who borks some component installation can probably just clear the directory, redownload and try again from the comfort of his home.}
+\p{\strong{Vibe example:} Imagine a hardware guy, who wants to connect wires to a speaker to make it work. He accidentally crosses the wires and fries the speaker. Now, he has to buy a new one; he has to think about cost and how long it will take to ship, which can be annoying if you just want to focus on "pure" hardware stuff (like where to put the wires). On the other hand, a software guy who borks some component installation can probably just clear the directory, redownload and try again instantly from the comfort of his home.}
 
 \p{Now, the actual definition of the CoH generalizes this dramatically. The CoH is when:}
 
@@ -10,7 +10,7 @@
 \li{We find out that the language is insufficient to express the precondition.}
 }
 
-\p{Now, let's match each of the above steps to the vibe example. The CoH is present in the vibe example because after the hardware guy fries the wires:}
+\p{Now, let's match each of the above steps to the vibe example. The CoH is present in the vibe example, because after the hardware guy fries the wires:}
 
 \ol{
 \li{\ol{
@@ -19,6 +19,8 @@
     \li{Our postcondition: The speaker works.}
     }}
 \li{We wish our language to be technical hardware skills (i.e. where to put the wires)}
-\li{We find out that our language needs to be extended with cost and shipping times.}
+\li{We find out that our language cannot express cost and shipping times.}
 }
+
+\p{Is the CoH definition hilariously broad? Yes. Is that okay? I... think so? We'll explore this in other entries.}
 

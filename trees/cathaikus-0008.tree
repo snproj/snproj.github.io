@@ -1,4 +1,6 @@
 \title{Leaf}
 
+\p{It's hard to avoid the green stuff when you're living the rockstar life.}
+
 \xmlns:html{http://www.w3.org/1999/xhtml}
 \p{\<html:img>[src]{jerry_leaf.png}{}}
