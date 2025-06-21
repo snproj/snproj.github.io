@@ -1,85 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>269</fr:anchor><fr:addr
-type="user">cathaikus-0004</fr:addr><fr:route>cathaikus-0004.xml</fr:route><fr:title
-text="Dance">Dance</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Hare's hearing, lion's sight --</fr:p><fr:p>Red leaves flutter on bird's tail --</fr:p><fr:p>How the autumn dances.</fr:p><fr:p><html:img
-xmlns:html="http://www.w3.org/1999/xhtml"
-src="dance.jpg" /></fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:addr
-type="user">cathaikusindex</fr:addr><fr:route>cathaikusindex.xml</fr:route><fr:title
-text="Cat Haikus + Edits">Cat Haikus + Edits</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>I am an expert in broken Japanese and the vertical text function in Powerpoint, and have infiltrated multiple cat groups on Telegram; this is the result.</fr:p><fr:ul><fr:li><fr:link
-type="local"
-href="cathaikus-0001.xml"
-addr="cathaikus-0001"
-title="Snail">Snail</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0002.xml"
-addr="cathaikus-0002"
-title="Turf">Turf</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0003.xml"
-addr="cathaikus-0003"
-title="Jade">Jade</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0004.xml"
-addr="cathaikus-0004"
-title="Dance">Dance</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0005.xml"
-addr="cathaikus-0005"
-title="Guard">Guard</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0006.xml"
-addr="cathaikus-0006"
-title="Dreams">Dreams</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0007.xml"
-addr="cathaikus-0007"
-title="Sun">Sun</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0008.xml"
-addr="cathaikus-0008"
-title="Leaf">Leaf</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0009.xml"
-addr="cathaikus-0009"
-title="Behold">Behold</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0010.xml"
-addr="cathaikus-0010"
-title="Kat">Kat</fr:link></fr:li>
-<fr:li><fr:link
-type="local"
-href="cathaikus-0011.xml"
-addr="cathaikus-0011"
-title="Nyakuza">Nyakuza</fr:link></fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>269</fr:anchor>
+    <fr:addr type="user">cathaikus-0004</fr:addr>
+    <fr:route>cathaikus-0004.xml</fr:route>
+    <fr:title text="Dance">Dance</fr:title>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Hare's hearing, lion's sight --</fr:p>
+    <fr:p>Red leaves flutter on bird's tail --</fr:p>
+    <fr:p>How the autumn dances.</fr:p>
+    <fr:p>
+      <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="dance.jpg" />
+    </fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>270</fr:anchor>
+            <fr:addr type="user">cathaikusindex</fr:addr>
+            <fr:route>cathaikusindex.xml</fr:route>
+            <fr:title text="Cat Haikus + Edits">Cat Haikus + Edits</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>I am an expert in broken Japanese and the vertical text function in Powerpoint, and have infiltrated multiple cat groups on Telegram; this is the result.</fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="cathaikus-0001.xml" addr="cathaikus-0001" title="Snail">Snail</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0002.xml" addr="cathaikus-0002" title="Turf">Turf</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0003.xml" addr="cathaikus-0003" title="Jade">Jade</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0004.xml" addr="cathaikus-0004" title="Dance">Dance</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0005.xml" addr="cathaikus-0005" title="Guard">Guard</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0006.xml" addr="cathaikus-0006" title="Dreams">Dreams</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0007.xml" addr="cathaikus-0007" title="Sun">Sun</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0008.xml" addr="cathaikus-0008" title="Leaf">Leaf</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0009.xml" addr="cathaikus-0009" title="Behold">Behold</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0010.xml" addr="cathaikus-0010" title="Kat">Kat</fr:link></fr:li>
+<fr:li><fr:link type="local" href="cathaikus-0011.xml" addr="cathaikus-0011" title="Nyakuza">Nyakuza</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
