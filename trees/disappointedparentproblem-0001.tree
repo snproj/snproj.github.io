@@ -1,0 +1,10 @@
+\title{Snail}
+
+\p{Resting at one end}
+
+\p{of a long and arduous bridge}
+
+\p{is a little snail.}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\p{\<html:img>[src]{snail.jpg}{}}

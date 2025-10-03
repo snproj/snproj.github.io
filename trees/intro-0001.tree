@@ -1,7 +1,9 @@
 \title{About Me}
 
 \p{
-I first got into PL during my [dissertation](https://github.com/snproj/taming-ansible/blob/main/thesis/thesisv1.pdf) about idempotence checking in Ansible scripts. That wasn't too long ago, so in addition to the relevant courses I took during my bachelor's, I'm currently doing self-study while searching for opportunilies to get more formally involved in the field.
+I first broached this topic as an open-source maintainer for quick-protobuf during my internship with Grasshopper Asia.
+
+I had the opportunity to [dissertation](https://github.com/snproj/taming-ansible/blob/main/thesis/thesisv1.pdf) about idempotence checking in Ansible scripts. That wasn't too long ago, so in addition to the relevant courses I took during my bachelor's, I'm currently doing self-study while searching for opportunities to get more formally involved in the field.
 }
 
 \p{

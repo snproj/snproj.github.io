@@ -2,12 +2,24 @@
 \title{Hi! I'm Zheng Yew.}
 
 \p{
-I'm a recent graduate in computer science from the Singapore University of Technology and Design, hoping to enter research in the field of programming language design. Coming from a mixed interest in logic, programming and linguistics, I love thinking about how we formally model and utilize meaning for various purposes and domains, and exploring the limits of such modelling.
+I'm a recent graduate in computer science from the Singapore University of Technology and Design, good for backend development, software infrastructure and low-level computing.
+}
+
+\p{
+I have a special interest in studying and improving technical collaboration tools: Tools for easily expressing and compositing ideas in precise and useful ways, and to repair or maintain those ideas sensibly over time as new requirements arise. This covers a surprisingly wide range of tools which I feel share the same underlying backbone: Everything from casual productivity and collaboration apps, to open-source software development platforms, to programming and specification language theory, to interactive theorem proving, proof repair and logic. I think these topics should be seen holistically from both a human linguistics, as well as a mathematical standpoint.
+}
+
+\p{
+I had the opportunity to explore these topics first as an open-source Rust crate maintainer, and then in my [thesis](https://github.com/snproj/taming-ansible/blob/main/thesis/thesisv1.pdf) where I developed a reliance check for infrastructure-as-code (Ansible Playbooks).
+}
+
+\p{
+In my free time, apart from my above interests, I enjoy creative writing, linguistics, worldbuilding and writing cat haikus in broken Japanese.
 }
 
 \xmlns:html{http://www.w3.org/1999/xhtml}
 \p{\<html:img>[src]{stanley-dark-small.png}{}}
 
-\transclude{intro-0001}
+
 \transclude{intro-0002}
 \transclude{intro-0003}
