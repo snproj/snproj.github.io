@@ -10,6 +10,6 @@ I'm a recent graduate in computer science from the Singapore University of Techn
 \xmlns:html{http://www.w3.org/1999/xhtml}
 \p{\<html:img>[src]{stanley-dark-small.png}{}}
 
-
+\transclude{intro-0001}
 \transclude{intro-0002}
 \transclude{intro-0003}

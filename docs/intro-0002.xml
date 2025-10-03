@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>271</fr:anchor>
+    <fr:anchor>273</fr:anchor>
     <fr:addr type="user">intro-0002</fr:addr>
     <fr:route>intro-0002.xml</fr:route>
     <fr:title text="Education">Education</fr:title>
@@ -20,7 +20,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>272</fr:anchor>
+            <fr:anchor>274</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Hi! I'm Zheng Yew.">Hi! I'm Zheng Yew.</fr:title>
@@ -33,7 +33,22 @@
             </fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>251</fr:anchor>
+                <fr:anchor>248</fr:anchor>
+                <fr:addr type="user">intro-0001</fr:addr>
+                <fr:route>intro-0001.xml</fr:route>
+                <fr:title text="About Me">About Me</fr:title>
+                <fr:authors />
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>I have a special interest in studying and improving technical collaboration tools: Tools for easily expressing and compositing ideas in precise and useful ways, and to repair or maintain those ideas sensibly over time as new requirements arise. This covers a surprisingly wide range of tools which I feel share the same underlying backbone: Everything from casual productivity and collaboration apps, to open-source software development platforms, to programming and specification language theory, to interactive theorem proving, proof repair and logic. I think these topics should be seen holistically from both a human linguistics, as well as a mathematical standpoint.</fr:p>
+                <fr:p>I had the opportunity to explore these topics first as an open-source Rust crate maintainer, and then in my <fr:link type="external" href="https://github.com/snproj/taming-ansible/blob/main/thesis/thesisv1.pdf">thesis</fr:link> where I developed a reliance check for infrastructure-as-code (Ansible Playbooks).</fr:p>
+                <fr:p>In my free time, apart from my above interests, I enjoy creative writing, linguistics, worldbuilding and writing cat haikus in broken Japanese.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>249</fr:anchor>
                 <fr:addr type="user">intro-0002</fr:addr>
                 <fr:route>intro-0002.xml</fr:route>
                 <fr:title text="Education">Education</fr:title>
@@ -46,7 +61,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>252</fr:anchor>
+                <fr:anchor>250</fr:anchor>
                 <fr:addr type="user">intro-0003</fr:addr>
                 <fr:route>intro-0003.xml</fr:route>
                 <fr:title text="CV + Other Links and Info">CV + Other Links and Info</fr:title>

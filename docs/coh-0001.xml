@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>306</fr:anchor>
+    <fr:anchor>308</fr:anchor>
     <fr:addr type="user">coh-0001</fr:addr>
     <fr:route>coh-0001.xml</fr:route>
     <fr:title text="What is the CoH?">What is the CoH?</fr:title>
@@ -28,7 +28,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>307</fr:anchor>
+            <fr:anchor>309</fr:anchor>
             <fr:addr type="user">cohindex</fr:addr>
             <fr:route>cohindex.xml</fr:route>
             <fr:title text="The Curse of Hardware">The Curse of Hardware</fr:title>
