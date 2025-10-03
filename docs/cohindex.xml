@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>296</fr:anchor>
+    <fr:anchor>301</fr:anchor>
     <fr:addr type="user">cohindex</fr:addr>
     <fr:route>cohindex.xml</fr:route>
     <fr:title text="The Curse of Hardware">The Curse of Hardware</fr:title>
@@ -25,7 +25,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>297</fr:anchor>
+            <fr:anchor>302</fr:anchor>
             <fr:addr type="user">blogindex</fr:addr>
             <fr:route>blogindex.xml</fr:route>
             <fr:title text="Sunrise's Lair">Sunrise's Lair</fr:title>
@@ -51,24 +51,21 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>298</fr:anchor>
+            <fr:anchor>303</fr:anchor>
             <fr:addr type="user">coh-0001</fr:addr>
             <fr:route>coh-0001.xml</fr:route>
             <fr:title text="What is the CoH?">What is the CoH?</fr:title>
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p><fr:strong>Vibe example:</fr:strong> Imagine a hardware guy, who wants to connect wires to a speaker to make it work. He accidentally crosses the wires and fries the speaker. Now, he has to buy a new one; he has to think about cost and how long it will take to ship, which can be annoying if you just want to focus on "pure" hardware stuff (like where to put the wires). On the other hand, a software guy who borks some component installation can probably just clear the directory, redownload and try again instantly from the comfort of his home.</fr:p>
-            <fr:p>Now, the actual definition of the CoH generalizes this dramatically. The CoH is when:</fr:p>
-            <fr:ol><fr:li>We are modelling a transformation as a precondition and postcondition.</fr:li>
-<fr:li>We wish to express the precondition and postcondition in a certain language.</fr:li>
-<fr:li>We find out that the language is insufficient to express the precondition.</fr:li></fr:ol>
-            <fr:p>Now, let's match each of the above steps to the vibe example. The CoH is present in the vibe example, because after the hardware guy fries the wires:</fr:p>
-            <fr:ol><fr:li><fr:ol><fr:li>Our transformation: Create a working speaker.</fr:li>
-    <fr:li>Our precondition: Put the wires in the correct places.</fr:li>
-    <fr:li>Our postcondition: The speaker works.</fr:li></fr:ol></fr:li>
-<fr:li>We wish our language to be technical hardware skills (i.e. where to put the wires)</fr:li>
-<fr:li>We find out that our language cannot express cost and shipping times.</fr:li></fr:ol>
+            <fr:p>The CoH is laughably trivial in many ways. It is simply a language-centric way to think about situations where one is unable to abstract away undesired aspects of reality in a satisfactory manner.</fr:p>
+            <fr:p><fr:strong>Vibe example:</fr:strong> Imagine a hardware guy, who wants to connect wires to a speaker to make it work. He accidentally crosses the wires and fries the speaker. Now, he has to buy a new one; he has to think about cost and how long it will take to ship from overseas, which can be annoying if you just want to focus on "pure" hardware stuff (like where to put the wires). On the other hand, a software guy who borks some component installation can probably just clear the directory, redownload and try again instantly from the comfort of his home.</fr:p>
+            <fr:p>If we frame this in terms of languages:</fr:p>
+            <fr:ol><fr:li>Let us assume we have a language $R$ which accurately expresses reality and its rules. For example, using $R$, we can express:
+    <fr:ol><fr:li>States of reality: "The wires are in my house", or "the speaker is overseas"</fr:li>
+        <fr:li>Transformations to reality: "Ship the speaker to my house", or "if the wires and the speaker are both in my house, connect them to make the speaker work".</fr:li></fr:ol></fr:li>
+<fr:li>Our desire is to express the transformation to reality in a constrained version of the language $R$, called $R^-$. In our case, we just want to focus on pure hardware stuff and don't wish to think about shipping: This means we want $R^-$ to be $R$, but without the "ship the speaker to my house" operation.</fr:li>
+<fr:li>We find out that $R^-$ is insufficient to express the transformation.</fr:li></fr:ol>
             <fr:p>Is the CoH definition hilariously broad? Yes. Is that okay? I... think so? We'll explore this in other entries.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />

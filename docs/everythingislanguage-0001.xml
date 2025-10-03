@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>308</fr:anchor>
+    <fr:addr type="user">everythingislanguage-0001</fr:addr>
+    <fr:route>everythingislanguage-0001.xml</fr:route>
+    <fr:title text="What I Think I Like">What I Think I Like</fr:title>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>
+      <fr:em>This is mostly written for my own logging and is probably very boring for anyone else!</fr:em>
+    </fr:p>
+  </fr:mainmatter>
+  <fr:backmatter />
+</fr:tree>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>285</fr:anchor>
+    <fr:addr type="user">penciltheory-0001</fr:addr>
+    <fr:route>penciltheory-0001.xml</fr:route>
+    <fr:title text="Pencil Theory">Pencil Theory</fr:title>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>The idea that in a system made up of many small interacting parts that have some clumping property, it is difficult to keep the system in</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter />
+</fr:tree>

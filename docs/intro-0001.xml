@@ -9,83 +9,11 @@
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>I first got into PL during my <fr:link type="external" href="https://github.com/snproj/taming-ansible/blob/main/thesis/thesisv1.pdf">dissertation</fr:link> about idempotence checking in Ansible scripts. That wasn't too long ago, so in addition to the relevant courses I took during my bachelor's, I'm currently doing self-study while searching for opportunilies to get more formally involved in the field.</fr:p>
+    <fr:p>I first broached this topic as an open-source maintainer for quick-protobuf during my internship with Grasshopper Asia.
+
+I had the opportunity to <fr:link type="external" href="https://github.com/snproj/taming-ansible/blob/main/thesis/thesisv1.pdf">dissertation</fr:link> about idempotence checking in Ansible scripts. That wasn't too long ago, so in addition to the relevant courses I took during my bachelor's, I'm currently doing self-study while searching for opportunities to get more formally involved in the field.</fr:p>
     <fr:p>Currently, I'm broadly interested in formal semantics, logic, type theory and effect systems, with an eye out for HCI factors in language/tool design whenever I get the chance.</fr:p>
     <fr:p>In my free time, I also enjoy considering the linguistics of programming, examining how programming idioms, conventions and best practices form and spread over time with usage.</fr:p>
   </fr:mainmatter>
-  <fr:backmatter>
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-      <fr:frontmatter>
-        <fr:title text="Context">Context</fr:title>
-        <fr:authors />
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-          <fr:frontmatter>
-            <fr:anchor>247</fr:anchor>
-            <fr:addr type="user">index</fr:addr>
-            <fr:route>index.xml</fr:route>
-            <fr:title text="Hi! I'm Zheng Yew.">Hi! I'm Zheng Yew.</fr:title>
-            <fr:authors />
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>I'm a recent graduate in computer science from the Singapore University of Technology and Design, hoping to enter research in the field of programming language design. Coming from a mixed interest in logic, programming and linguistics, I love thinking about how we formally model and utilize meaning for various purposes and domains, and exploring the limits of such modelling.</fr:p>
-            <fr:p>
-              <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="stanley-dark-small.png" />
-            </fr:p>
-            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-              <fr:frontmatter>
-                <fr:anchor>248</fr:anchor>
-                <fr:addr type="user">intro-0001</fr:addr>
-                <fr:route>intro-0001.xml</fr:route>
-                <fr:title text="About Me">About Me</fr:title>
-                <fr:authors />
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>I first got into PL during my <fr:link type="external" href="https://github.com/snproj/taming-ansible/blob/main/thesis/thesisv1.pdf">dissertation</fr:link> about idempotence checking in Ansible scripts. That wasn't too long ago, so in addition to the relevant courses I took during my bachelor's, I'm currently doing self-study while searching for opportunilies to get more formally involved in the field.</fr:p>
-                <fr:p>Currently, I'm broadly interested in formal semantics, logic, type theory and effect systems, with an eye out for HCI factors in language/tool design whenever I get the chance.</fr:p>
-                <fr:p>In my free time, I also enjoy considering the linguistics of programming, examining how programming idioms, conventions and best practices form and spread over time with usage.</fr:p>
-              </fr:mainmatter>
-              <fr:backmatter />
-            </fr:tree>
-            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-              <fr:frontmatter>
-                <fr:anchor>249</fr:anchor>
-                <fr:addr type="user">intro-0002</fr:addr>
-                <fr:route>intro-0002.xml</fr:route>
-                <fr:title text="Education">Education</fr:title>
-                <fr:authors />
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>I did a concurrent BEng in computer science and MSc in tech entrepreneurship at SUTD, Singapore.</fr:p>
-                <fr:p>Fun fact -- my dissertation was for my MSc, but I managed to wangle my way into doing a PL subject, since I'd realized by then that I was far more interested in that.</fr:p>
-                <fr:p>My motivation for entrepreneurship was as a means to find and work on technical problems that interested me, before I realized research was a possibility.</fr:p>
-              </fr:mainmatter>
-              <fr:backmatter />
-            </fr:tree>
-            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-              <fr:frontmatter>
-                <fr:anchor>250</fr:anchor>
-                <fr:addr type="user">intro-0003</fr:addr>
-                <fr:route>intro-0003.xml</fr:route>
-                <fr:title text="CV + Other Links and Info">CV + Other Links and Info</fr:title>
-                <fr:authors />
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:ul><fr:li><fr:link type="external" href="https://drive.google.com/file/d/1yfRNz3kg--deVdvLSxDdvP8vxKcNK7HB/view?usp=sharing">CV</fr:link></fr:li>
-<fr:li><fr:link type="external" href="https://github.com/snproj">Github</fr:link></fr:li>
-<fr:li><fr:link type="external" href="https://types.pl/@sunrise">Mastodon</fr:link></fr:li>
-<fr:li>Email: not.moonset@gmail.com</fr:li>
-<fr:li>Telegram: @not_moonset</fr:li></fr:ul>
-                <fr:strong>If you're skimming my profile for relevant stuff, you can stop here; thanks so much for reading! The rest of my (more informal) blog is <fr:link type="local" href="blogindex.xml" addr="blogindex" title="Sunrise's Lair">here</fr:link>.</fr:strong>
-              </fr:mainmatter>
-              <fr:backmatter />
-            </fr:tree>
-          </fr:mainmatter>
-          <fr:backmatter />
-        </fr:tree>
-      </fr:mainmatter>
-      <fr:backmatter />
-    </fr:tree>
-  </fr:backmatter>
+  <fr:backmatter />
 </fr:tree>
