@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>281</fr:anchor>
+    <fr:addr type="user">otherpoetry-0002</fr:addr>
+    <fr:route>otherpoetry-0002.xml</fr:route>
+    <fr:title text="How Math Works">How Math Works</fr:title>
+    <fr:authors />
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>You sing your song to light your way</fr:p>
+    <fr:p>to express a vibe or the time of day</fr:p>
+    <fr:p>when two songs meet, the medley reveals</fr:p>
+    <fr:p>the story of their interplay</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>282</fr:anchor>
+            <fr:addr type="user">otherpoetryindex</fr:addr>
+            <fr:route>otherpoetryindex.xml</fr:route>
+            <fr:title text="Other Poetry">Other Poetry</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:ul><fr:li><fr:link type="local" href="otherpoetry-0001.xml" addr="otherpoetry-0001" title="Already Waterloo">Already Waterloo</fr:link></fr:li>
+<fr:li><fr:link type="local" href="otherpoetry-0002.xml" addr="otherpoetry-0002" title="How Math Works">How Math Works</fr:link></fr:li></fr:ul>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

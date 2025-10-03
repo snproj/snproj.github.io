@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>253</fr:anchor>
+    <fr:anchor>255</fr:anchor>
     <fr:addr type="user">intro-0003</fr:addr>
     <fr:route>intro-0003.xml</fr:route>
     <fr:title text="CV + Other Links and Info">CV + Other Links and Info</fr:title>
@@ -26,7 +26,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>254</fr:anchor>
+            <fr:anchor>256</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Hi! I'm Zheng Yew.">Hi! I'm Zheng Yew.</fr:title>
@@ -99,7 +99,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>255</fr:anchor>
+            <fr:anchor>257</fr:anchor>
             <fr:addr type="user">blogindex</fr:addr>
             <fr:route>blogindex.xml</fr:route>
             <fr:title text="Sunrise's Lair">Sunrise's Lair</fr:title>
@@ -110,7 +110,9 @@
             <fr:p>Here's where I plan to dump my various thoughts on programming languages, human linguistics and some creative writing. These might not be very complete nor sound.</fr:p>
             <fr:p>This website is written using a really nice tool called <fr:link type="external" href="https://github.com/jonsterling/ocaml-forester">forester</fr:link>. It's essentially a collection of notes (a "forest") in a relatively freeform format; some are self-contained and some are organized into series. Apart from clicking links, you can press Ctrl+K to search if you somehow know what you're looking for.</fr:p>
             <fr:ul><fr:li><fr:link type="local" href="cohindex.xml" addr="cohindex" title="The Curse of Hardware">Curse of Hardware</fr:link></fr:li>
-<fr:li><fr:link type="local" href="cathaikusindex.xml" addr="cathaikusindex" title="Cat Haikus + Edits">Cat Haikus + Edits</fr:link></fr:li></fr:ul>
+<fr:li><fr:link type="local" href="cathaikusindex.xml" addr="cathaikusindex" title="Cat Haikus + Edits">Cat Haikus + Edits</fr:link></fr:li>
+<fr:li><fr:link type="external" href="https://drive.google.com/drive/folders/1UHY5VCdBXv6YfLgClSD8nSTkTh9cPnz8?usp=drive_link">Creative Writing in my custom format</fr:link></fr:li>
+<fr:li><fr:link type="local" href="otherpoetryindex.xml" addr="otherpoetryindex" title="Other Poetry">Other Poetry</fr:link></fr:li></fr:ul>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>

@@ -2,19 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>312</fr:anchor>
-    <fr:addr type="user">cohindex</fr:addr>
-    <fr:route>cohindex.xml</fr:route>
-    <fr:title text="The Curse of Hardware">The Curse of Hardware</fr:title>
+    <fr:anchor>291</fr:anchor>
+    <fr:addr type="user">otherpoetryindex</fr:addr>
+    <fr:route>otherpoetryindex.xml</fr:route>
+    <fr:title text="Other Poetry">Other Poetry</fr:title>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Some thoughts on an idea I call the curse of hardware (CoH). It's honestly probably not very original, but I enjoy formalizing it. It's about generalizing the differences between software and hardware, to gain insight into the concepts of formalization, purity and composability, as well as how they might apply to real life.</fr:p>
-    <fr:ul>
-      <fr:li>
-        <fr:link type="local" href="coh-0001.xml" addr="coh-0001" title="What is the CoH?">Definition</fr:link>
-      </fr:li>
-    </fr:ul>
+    <fr:ul><fr:li><fr:link type="local" href="otherpoetry-0001.xml" addr="otherpoetry-0001" title="Already Waterloo">Already Waterloo</fr:link></fr:li>
+<fr:li><fr:link type="local" href="otherpoetry-0002.xml" addr="otherpoetry-0002" title="How Math Works">How Math Works</fr:link></fr:li></fr:ul>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -25,7 +21,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>313</fr:anchor>
+            <fr:anchor>292</fr:anchor>
             <fr:addr type="user">blogindex</fr:addr>
             <fr:route>blogindex.xml</fr:route>
             <fr:title text="Sunrise's Lair">Sunrise's Lair</fr:title>
@@ -53,22 +49,45 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>314</fr:anchor>
-            <fr:addr type="user">coh-0001</fr:addr>
-            <fr:route>coh-0001.xml</fr:route>
-            <fr:title text="What is the CoH?">What is the CoH?</fr:title>
+            <fr:anchor>293</fr:anchor>
+            <fr:addr type="user">otherpoetry-0001</fr:addr>
+            <fr:route>otherpoetry-0001.xml</fr:route>
+            <fr:title text="Already Waterloo">Already Waterloo</fr:title>
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>The CoH is laughably trivial in many ways. It is simply a language-centric way to think about situations where one is unable to abstract away undesired aspects of reality in a satisfactory manner.</fr:p>
-            <fr:p><fr:strong>Vibe example:</fr:strong> Imagine a hardware guy, who wants to connect wires to a speaker to make it work. He accidentally crosses the wires and fries the speaker. Now, he has to buy a new one; he has to think about cost and how long it will take to ship from overseas, which can be annoying if you just want to focus on "pure" hardware stuff (like where to put the wires). On the other hand, a software guy who borks some component installation can probably just clear the directory, redownload and try again instantly from the comfort of his home.</fr:p>
-            <fr:p>If we frame this in terms of languages:</fr:p>
-            <fr:ol><fr:li>Let us assume we have a language $R$ which accurately expresses reality and its rules. For example, using $R$, we can express:
-    <fr:ol><fr:li>States of reality: "The wires are in my house", or "the speaker is overseas"</fr:li>
-        <fr:li>Transformations to reality: "Ship the speaker to my house", or "if the wires and the speaker are both in my house, connect them to make the speaker work".</fr:li></fr:ol></fr:li>
-<fr:li>Our desire is to express the transformation to reality in a constrained version of the language $R$, called $R^-$. In our case, we just want to focus on pure hardware stuff and don't wish to think about shipping: This means we want $R^-$ to be $R$, but without the "ship the speaker to my house" operation.</fr:li>
-<fr:li>We find out that $R^-$ is insufficient to express the transformation.</fr:li></fr:ol>
-            <fr:p>Is the CoH definition hilariously broad? Yes. Is that okay? I... think so? We'll explore this in other entries.</fr:p>
+            <fr:p>When Bonaparte surveyed his men, a-run from Waterloo</fr:p>
+            <fr:p>I wonder if he laughed and thought, "I guess that's what I'm due"</fr:p>
+            <fr:p>and struck the colours from his cap, the medals from his chest</fr:p>
+            <fr:p>long rusted by his late decline and then his Elban rest</fr:p>
+            <fr:p>For Waterloo was not the end of Boney's fated run</fr:p>
+            <fr:p>nor Stalingrad for Hitler, nor for tsardom World War One</fr:p>
+            <fr:p>The grandpa in the hospital, compressions on his chest</fr:p>
+            <fr:p>no different from some boys who persevered to pass their test</fr:p>
+            <fr:p>The first, persisting broken-ribbed, more cruelly fades away</fr:p>
+            <fr:p>the others' best times spent before their graduation day</fr:p>
+            <fr:p>No, Waterloo was just Napoleon's needless epilogue</fr:p>
+            <fr:p>His grand return was celebrated under Fortune's fog</fr:p>
+            <fr:p>His end came long before; exactly when, nobody'd know</fr:p>
+            <fr:p>but destiny leaves signs to tell you when it's time to go</fr:p>
+            <fr:p>If fate announced which musketeer each bullet would go through</fr:p>
+            <fr:p>perhaps they'd know, for them it was Already Waterloo</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>294</fr:anchor>
+            <fr:addr type="user">otherpoetry-0002</fr:addr>
+            <fr:route>otherpoetry-0002.xml</fr:route>
+            <fr:title text="How Math Works">How Math Works</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>You sing your song to light your way</fr:p>
+            <fr:p>to express a vibe or the time of day</fr:p>
+            <fr:p>when two songs meet, the medley reveals</fr:p>
+            <fr:p>the story of their interplay</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
